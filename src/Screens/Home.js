@@ -5,8 +5,8 @@ import image from '../image/profile.jpeg'
 
 const Home = () => {
     return (
-        <div className='flex flex-row mt-[6%] mr-[5%] ml-[5%]'>
-            <div className='flex flex-col space-y-8 w-[100%]'>
+        <div className='flex flex-row mt-[6%] mx-[5%]'>
+            <div className='flex flex-col space-y-8 w-[100%] h-screen'>
                 <div className='text-6xl font-extrabold'>
                     <span >The All-in-One</span><br/>
                     <span>NewsLetter For</span><br/>
@@ -24,9 +24,10 @@ const Home = () => {
                     <span className='text-slate-600 text-xl italic'>My name is Suman Balayar and I'm a Full Stack Developer. I'd love you to join the newsletter!</span>
                 </div>
             </div>
-            <div>
-                <img src={image1} alt="Mobile Image" className='h-[55%] min-w-min' />
+            <div className='flex'>
+                <img src={image1} alt="Mobile Image" className='' />
             </div>
+            
         </div>
     )
 }
