@@ -8,12 +8,12 @@ const Home = () => {
         <div className='flex flex-row mt-[6%] mx-[5%]'>
             <div className='flex flex-col space-y-8 w-[100%] h-screen'>
                 <div className='text-6xl font-extrabold'>
-                    <span >The All-in-One</span><br/>
-                    <span>NewsLetter For</span><br/>
+                    <span>The <span className='underline'>All-in-One</span><br/></span>
+                    <span>Frontend Solutions For</span><br/>
                     <span>Startup Founders</span>
                 </div>
                 <div className='text-slate-600 text-2xl'>
-                    90% of startups fail. Learn how not to with our weekly guides and stories. <span className='text-black font-semibold'>Join 40,000+ founders.</span>
+                    90% of startups fail. Design a beautiful frontend for your business. <span className='text-black font-semibold'>Join 40,000+ founders.</span>
                 </div>
                 <div className='flex flex-row space-x-2'>
                     <input className='py-2 px-4 w-3/4 h-fit rounded-md border-solid border-2 border-gray-800 focus:border-gray-900' placeholder='Enter the Email Address'></input>

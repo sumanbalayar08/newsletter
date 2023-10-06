@@ -18,9 +18,9 @@ const SocialCard = (props) => {
           <BsTwitter />
         </div>
         <div className="flex flex-col space-y-3">
-          <span>1. Failory</span>
+          <span>1. Frontend Design</span>
           <span>
-            200+ interviews with the brains behind failed and successful
+            Design a beautiful frontend for your business for successful
             startups. Learn from their wins and their mistakes and become a
             better founder.
           </span>
