@@ -35,7 +35,7 @@ Welcome to my awesome project. Here are some screenshots to give you a glimpse o
 
 This is the link to a live demo of this project (if applicable). This is hosted in netlify platform.
 
-[Live Demo](https://newsletter.netlify.app)
+[Live Demo](https://newsletterco.netlify.app)
 
 ## Installation
 
