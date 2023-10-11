@@ -15,7 +15,7 @@ NewsLetter Frontend Design
 
 ## Introduction
 
-Briefly introduce your project, its purpose, and what it aims to achieve. Mention any unique features or functionalities.
+Basic Frontend Design of a NewsLetter Website
 
 ## Screenshots
 
