@@ -5,10 +5,10 @@ import {BsArrowRight} from 'react-icons/bs'
 const Issue = () => {
   return (
     <div className="mx-[5%] space-y-4 flex flex-col mt-[5%]">
-      <div>
-        <span className="text-5xl font-extrabold">Latest Issues</span>
+      <div className="text-5xl font-extrabold text-center">
+      Latest Issues
       </div>
-      <div className="flex flex-col space-y-4 ">
+      <div className="flex flex-col space-y-4 text-sm">
         {issue.map((item) => (
           <div className="flex flex-row justify-between bg-slate-200 px-3 py-6 rounded ">
             <div className="flex flex-row space-x-2">

@@ -5,7 +5,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 
 const SocialCard = (props) => {
   return (
-    <div className="w-[30%] h-[400px] rounded-md shadow-xl border-2 border-opacity-50 border-gray-300 px-4 py-2 flex flex-col justify-between">
+    <div className="w-full md:w-[30%] h-[400px] rounded-md shadow-xl border-2 border-opacity-50 border-gray-300 px-4 py-2 flex flex-col justify-between">
       <div className="flex flex-col space-y-6">
         <div className="flex flex-row items-center justify-between">
           <div className="flex flex-row space-x-3">

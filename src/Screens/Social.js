@@ -23,10 +23,10 @@ const Social = () => {
 
   return (
     <div className="flex flex-col mx-[5%] mt-[5%] space-y-6">
-      <div>
-        <span className="text-black text-5xl font-extrabold">Trusted by 40K+ Developers</span>
+      <div className="text-center">
+        <span className="text-black text-3xl font-extrabold">Trusted by 40K+ Developers</span>
       </div>
-      <div className="flex flex-row space-x-3"> 
+      <div className="flex-col space-y-3"> 
         {items.map((item)=>(
             <SocialCard key={item.id} name={item.name} username={item.username}/>
         ))}
