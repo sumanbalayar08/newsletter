@@ -20,7 +20,7 @@ const Issue = () => {
         ))}
       </div>
       <div className="flex flex-row justify-end items-center space-x-1">
-        <span className="text-black font-bold">Go To The Archive</span>
+        <span className="text-black font-bold text-sm md:text-base">Go To The Archive</span>
         <BsArrowRight/>
       </div>
     </div>
